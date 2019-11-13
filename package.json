@@ -1,11 +1,11 @@
 {
   "name": "quick-admin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "supporting modules form QuickAdmin",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/laravel/nova-js.git"
+    "url": "git+https://github.com/sciqtw/quick-admin-js.git"
   },
   "dependencies": {
     "babel-plugin-syntax-jsx": "^6.18.0",
