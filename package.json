@@ -1,0 +1,38 @@
+{
+  "name": "quick-admin",
+  "version": "1.0.0",
+  "description": "supporting modules form QuickAdmin",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laravel/nova-js.git"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "form-backend-validation": "^2.3.3",
+    "inflector-js": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.4.0",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-merge": "^4.1.0"
+  },
+  "scripts": {
+    "build": "set NODE_ENV=production && webpack",
+    "demo": "NODE_ENV=production webpack --config webpack.config.js",
+    "prepublish": "npm run build",
+    "start": "NODE_ENV=production webpack --watch --config webpack.config.js"
+  },
+  "keywords": [
+    "quick-admin",
+    "thinkphp"
+  ],
+  "author": "qintingwei",
+  "license": "Apache-2.0"
+}
